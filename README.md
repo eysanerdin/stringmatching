@@ -1,7 +1,7 @@
 # Motivation
 Visualizes Naive and Boyer Moore Horspool to help gain insight as to how these algorithms work, and how they compare to each other. 
 # Goal
-The aim in the String Matching Problem is to find all the occurrences of a word in a text.
+The aim of the String Matching Problem is to find all the occurrences of a word in a text.
 # Naive Algorithm 
 Uses two nested loops to search through the text. Outer loop iterates through all possible positions and the inner loop iterates through the corresponding characters of the text and the word in the current position whilst comparing the corresponding characters. Inner loop breaks if a mismatch happens. 
 # Boyer Moore Horspool Algorithm
@@ -11,3 +11,5 @@ Which corresponds to m-i, where m=length of the word and i=rightmost position of
 And this algorithm uses the same approach as naive algorithm, except that the outer loop uses this heuristic table to adjust the new position. 
 # The Code
 I used Java Swing to get input text and word from the user, and to visualize the chosen algorithm.
+Here is how it looks like:
+https://outklip.com/v/-MUAzbctt_tqMa-Ay7rU
